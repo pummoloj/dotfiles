@@ -51,14 +51,14 @@ echo "Installazione configurazioni..."
 if [ -f "$DOTFILES_DIR/.vimrc" ]; then
     create_symlink "$DOTFILES_DIR/.vimrc" "$HOME/.vimrc"
 else
-    echo "⚠️  File .vimrc non trovato in $DOTFILES_DIR"
+    echo "File .vimrc non trovato in $DOTFILES_DIR"
 fi
 
 # Ghostty configuration
 if [ -f "$DOTFILES_DIR/.config/ghostty/config" ]; then
     create_symlink "$DOTFILES_DIR/.config/ghostty/config" "$HOME/.config/ghostty/config"
 else
-    echo "⚠️  File ghostty config non trovato in $DOTFILES_DIR"
+    echo "File ghostty config non trovato in $DOTFILES_DIR"
 fi
 
 echo ""
@@ -68,4 +68,4 @@ echo "Per disinstallare:"
 echo "   - Rimuovi i symlink: rm ~/.vimrc ~/.config/ghostty/config"
 echo "   - Ripristina i backup: mv ~/.vimrc.backup ~/.vimrc (se esistente)"
 echo ""
-echo "🎉 I tuoi dotfiles sono ora attivi!"
+echo "I tuoi dotfiles sono ora attivi!"
