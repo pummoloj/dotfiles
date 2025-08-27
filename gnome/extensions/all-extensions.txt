@@ -1,0 +1,13 @@
+system-monitor@gnome-shell-extensions.gcampax.github.com
+middleclickclose@paolo.tranquilli.gmail.com
+simple-message@freddez
+native-window-placement@gnome-shell-extensions.gcampax.github.com
+kbd-informer@digitalspace.name
+blur-my-shell@aunetx
+user-theme@gnome-shell-extensions.gcampax.github.com
+just-perfection-desktop@just-perfection
+Rounded_Corners@lennart-k
+panel-corners@aunetx
+transparent-window-moving@noobsai.github.com
+ding@rastersoft.com
+dash-to-dock@micxgx.gmail.com
